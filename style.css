@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    font-family: arial;
+    font-size: 400%;
+    color:cornflowerblue;
+    
+}
+#container{
+    
+padding: 20%;
+    
+}
+#HTML5{
+   
+    float:left;
+    margin:30px;
+    transition-duration:2s;
+}
+#HTML5:hover{
+    
+    width:30%;
+     height:30%;
+    background-color: rgba(215, 44, 44, 0.3);
+    
+}
+#CSS3{
+    
+    float:left;
+    margin:30px;
+}
+#JS{
+    
+    float:left;
+    margin:30px;
+}
+#PHP{
+    
+    float:left;
+    margin:30px;
+}
