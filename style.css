@@ -7,34 +7,69 @@ body{
 }
 #container{
     
-padding: 20%;
+padding: 5%;
     
 }
-#HTML5{
-   
-    float:left;
-    margin:30px;
-    transition-duration:2s;
+#gandralf{
+width:20%;
 }
-#HTML5:hover{
-    
-    width:30%;
-     height:30%;
-    background-color: rgba(215, 44, 44, 0.3);
-    
+#panel {
+width: 400px; 
+margin: 0 auto; 
+margin-top:20px;
+padding: 20px 0 0;
+background: #fff;
+border: 1px solid silver;
+font: 16px calibri;
+letter-spacing: -1px;
+-webkit-box-shadow: 0 0 2px silver; 
+-moz-box-shadow: 0 0 2px silver; 
+box-shadow: 0 0 2px silver;
 }
-#CSS3{
-    
-    float:left;
-    margin:30px;
+form {
+margin: 0;
 }
-#JS{
-    
-    float:left;
-    margin:30px;
+label {
+display: block;
+width: 260px;
+padding: 10px 20px;
+color: #696969;
+font-size: 16px;
+text-shadow: 0 0 1px silver;
 }
-#PHP{
-    
-    float:left;
-    margin:30px;
+#username, #password {
+display: block;
+width: 360px; 
+margin: 0 auto;
+padding: 10px 15px;
+border: 1px solid silver;
+outline: 5px solid #ebebeb;
+font-size: 22px;
+}
+#username:focus, #password:focus {
+outline: 5px solid #e5f2f8;
+}	
+.check {
+
+display: inline;
+float: none;
+font-size: 11px;
+padding: 15px;
+}
+#lower {
+background: #ecf2f5;
+width: 300px;
+padding: 5px 20px;
+margin-top: 20px;
+}
+input[type="submit"] {
+
+width: 70px;
+padding: 5px 13px;
+border: 1px solid #005f85;
+color: white;
+text-shadow: 0 0 1px black;
+background: #98c9dc;
+position: relative;
+left: 80px;
 }
